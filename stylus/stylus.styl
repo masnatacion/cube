@@ -1,0 +1,27 @@
+//
+// how compilate?
+//stylus -u nib --include-css -w -c -o css stylus/stylus.styl
+//
+// Miguel Martinez <natacion@gmail.com>
+// 0.0.1
+
+@import "nib"
+
+@import "bootstrap/bootstrap.styl"
+@import "bootstrap/theme.styl"
+
+@import "stylus/variables.styl"
+
+@import "stylus/dashboard/dashboard.styl"
+
+@import "stylus/footer.styl"
+
+body 
+    padding-top 50px
+
+
+.logo
+	background url($img-path"logo.png")
+	background-repeat no-repeat
+	width 169px
+

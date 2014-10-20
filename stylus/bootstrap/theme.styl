@@ -66,7 +66,7 @@ btn-styles($btn-color = #555)
   btn-styles($btn-primary-bg)
 
 .btn-success
-  btn-styles($btn-success-bg)
+  background-color $color-green
 
 .btn-info
   btn-styles($btn-info-bg)
@@ -202,7 +202,7 @@ alert-styles($color)
 
 // Give the progress background some depth
 .progress
-  gradient-vertical(darken($progress-bg, 4%), $progress-bg)
+  gradient-vertical($color-bold-gray , $color-bold-gray )
 
 // Mixin for generating new styles
 progress-bar-styles($color)
@@ -213,7 +213,7 @@ progress-bar-styles($color)
   progress-bar-styles($progress-bar-bg)
 
 .progress-bar-success
-  progress-bar-styles($progress-bar-success-bg)
+  progress-bar-styles($color-green)
 
 .progress-bar-info
   progress-bar-styles($progress-bar-info-bg)

@@ -10,6 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/stylus.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -30,15 +31,39 @@
           <a class="navbar-brand logo" href="#"></a>
         </div>
         <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Schedules</a></li>
+          </ul>
+
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <form class="navbar-form navbar-right" role="form">
+                    <div class="form-group">
+                      <input type="text" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" placeholder="Password" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-success">Sign in</button>
+                  </form>
+                </li>
+<!--                 <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li> -->
+              </ul>
+            </li>
+          </ul>
+
         </div><!--/.navbar-collapse -->
       </div>
     </div>
@@ -46,10 +71,49 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
 
+            
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+<!--         <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol> -->
+
+        <!-- Wrapper for slides -->
+        <div class="carrousel carousel-inner">
+          <div class="item active">
+            <img src="./img/mobile/dashboard/banner.png" alt="First slide">
+            <div class="carousel-caption">
+              <h1>Expand your technicals skills</h1>
+              <p>Essential Courses teach product & marketing</p>
+              
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controls -->
+<!--         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a> -->
+      </div>
+
+
+
+
+
+
       <div class="btn-toolbar green-toolbar" role="toolbar">
-        <div class="btn-group">Messages</div>
-        <div class="btn-group">Mentor</div>
-        <div class="btn-group">My profile</div>
+        <div class="pull-right">
+          <div class="btn-group">Messages</div>
+          <div class="btn-group">Mentor</div>
+          <div class="btn-group">My profile</div>
+        </div>
+
       </div>
 
       <div class="container">

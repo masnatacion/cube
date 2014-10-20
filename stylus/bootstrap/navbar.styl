@@ -156,6 +156,7 @@
     .navbar > .container &,
     .navbar > .container-fluid &
       margin-left (-($navbar-padding-horizontal))
+      margin-right (($navbar-padding-horizontal))
 
 
 // Navbar toggle
@@ -259,8 +260,8 @@
 // our navbars.
 
 .navbar-form
-  margin-left (-($navbar-padding-horizontal))
-  margin-right (-($navbar-padding-horizontal))
+  // margin-left (-($navbar-padding-horizontal))
+  // margin-right (-($navbar-padding-horizontal))
   padding 10px $navbar-padding-horizontal
   border-top 1px solid transparent
   border-bottom 1px solid transparent
@@ -462,10 +463,10 @@
     > li > a
       color $navbar-inverse-link-color
 
-      &:hover,
-      &:focus
-        color $navbar-inverse-link-hover-color
-        background-color $navbar-inverse-link-hover-bg
+      // &:hover,
+      // &:focus
+      //   color $navbar-inverse-link-hover-color
+      //   background-color $navbar-inverse-link-hover-bg
 
     > .active > a
       &,

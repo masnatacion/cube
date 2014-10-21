@@ -15,15 +15,26 @@
 
 
 @import "stylus/dashboard/dashboard.styl"
+@import "stylus/payment/payment.styl"
 
 @import "stylus/footer.styl"
 
 body 
 	position relative
 	padding-top 50px
+	color #777
 	
 .logo
 	background url($img-mobile-path"logo.png")
 	background-repeat no-repeat
 	width 169px
 
+
+.margin-bottom-xs 
+	margin-bottom ceil($line-height-computed / 4)  
+.margin-bottom-sm 
+	margin-bottom ceil($line-height-computed / 2)
+.margin-bottom-md 
+	margin-bottom $line-height-computed
+.margin-bottom-sm 
+	margin-bottom ceil($line-height-computed * 2) 

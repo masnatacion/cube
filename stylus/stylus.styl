@@ -7,14 +7,25 @@
 
 @import "nib"
 
+// PROJECT VARIABLES
 @import "stylus/variables.styl"
 
+// CUBE FONT
+@import "stylus/font.styl"
+
+// BOOTSTRAP
 @import "bootstrap/bootstrap.styl"
 @import "bootstrap/theme.styl"
 
-
-
+// DASHBOARD
 @import "stylus/dashboard/dashboard.styl"
+@import "stylus/dashboard/toolbar.styl"
+@import "stylus/dashboard/courses/courses.styl"
+
+// HOME
+@import "stylus/home/home.styl"
+
+// PAYMENT
 @import "stylus/payment/payment.styl"
 
 @import "stylus/footer.styl"
@@ -28,6 +39,58 @@ body
 	background url($img-mobile-path"logo.png")
 	background-repeat no-repeat
 	width 169px
+
+.bottom
+	position absolute
+	bottom 0
+	width 100%
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+
+//PADDING
+
+
+.padding-top-xs 
+	padding-top ceil($line-height-computed / 4)  
+.padding-top-sm 
+	padding-top ceil($line-height-computed / 2)
+.padding-top-md 
+	padding-top $line-height-computed
+.padding-top-sm 
+	padding-top ceil($line-height-computed * 2) 
+
+
+
+.padding-bottom-xs 
+	padding-bottom ceil($line-height-computed / 4)  
+.padding-bottom-sm 
+	padding-bottom ceil($line-height-computed / 2)
+.padding-bottom-md 
+	padding-bottom $line-height-computed
+.padding-bottom-sm 
+	padding-bottom ceil($line-height-computed * 2)
+
+
+
+
+// MARGING
+
+.margin-top-xs 
+	margin-top ceil($line-height-computed / 4)  
+.margin-top-sm 
+	margin-top ceil($line-height-computed / 2)
+.margin-top-md 
+	margin-top $line-height-computed
+.margin-top-sm 
+	margin-top ceil($line-height-computed * 2) 
+
 
 
 .margin-bottom-xs 

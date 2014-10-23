@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 101 104" enable-background="new 0 0 101 104" xml:space="preserve">
+<g id="clock" display="none">
+	<g display="inline">
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M49.1,22c17.5,0,31.7,14.2,31.7,31.8S66.6,85.7,49.1,85.7
+			c-17.5,0-31.7-14.3-31.7-31.9S31.6,22,49.1,22z M49.1,13.1c22.3,0,40.4,18.2,40.4,40.7S71.4,94.5,49.1,94.5
+			c-22.3,0-40.4-18.2-40.4-40.7S26.8,13.1,49.1,13.1z"/>
+	</g>
+	<g display="inline">
+		<rect x="43.6" y="33.3" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" width="5.8" height="26.5"/>
+		<rect x="43.6" y="54.1" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" width="26.4" height="5.8"/>
+	</g>
+</g>
+<g id="code">
+	
+		<rect x="11.1" y="14.8" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FFFFFF" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="76.9" height="77.7"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M20.7,24.5v58.2h57.7V24.5H20.7z M60.8,55.1v2.3H44.2v-2.3H60.8z
+		 M38.2,43l-7.5-6.8l1.6-1.7l9.7,8.4l-9.7,8.4l-1.6-1.6L38.2,43z"/>
+</g>
+</svg>

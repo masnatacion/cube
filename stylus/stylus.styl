@@ -24,6 +24,8 @@
 
 // HOME
 @import "stylus/home/home.styl"
+@import "stylus/home/about.styl"
+@import "stylus/home/jobs.styl"
 
 // PAYMENT
 @import "stylus/payment/payment.styl"
@@ -101,3 +103,26 @@ body
 	margin-bottom $line-height-computed
 .margin-bottom-sm 
 	margin-bottom ceil($line-height-computed * 2) 
+
+
+.green-text
+	color $color-box-green
+
+.green-box
+	background-color $color-box-green
+	h1,
+	p
+		color $color-box-font-green
+	p
+		color $color-box-font-green
+		font-size 1.2em
+		&.amount
+			font-size 3.2em
+		&.card
+			font-size 1.5em
+		&.payment
+			font-size 2em
+			font-weight bold
+			margin-bottom 0
+		&.id
+			font-size 2em	

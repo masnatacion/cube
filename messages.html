@@ -14,8 +14,13 @@
         <link rel="stylesheet" href="css/stylus.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+		<script src="js/vendor/jquery-1.11.1.min.js"></script>
+		<script src="js/jquery.plugin.min.js"></script>
+		<script src="js/jquery.countdown.min.js"></script>
+
     </head>
-    <body class="jobs">
+    <body class="messages">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -71,74 +76,92 @@
     </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron white">
+    <div class="jumbotron">
+
+
+      <div class="btn-toolbar green-toolbar" role="toolbar">
+        <div class="pull-right">
+          <div class="btn-group">Messages</div>
+          <div class="btn-group">Mentor</div>
+          <div class="btn-group">My profile</div>
+        </div>
+
+      </div>
+
+
       <div class="container">
+		<h1 class="margin-bottom-sm">Messages</h1>
+		
 
-        <div class="row green-box">
-          <div class="col-xs-12 margin-bottom-md">
-            <h1 class="margin-bottom-md">Jobs</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sunt officiis quos ad nemo odit cum. Repellendus, ex ducimus quibusdam expedita laboriosam optio odit atque! Earum, dignissimos dolorum impedit perferendis.</p>
-          </div>
+		<div class="list">
+	        <div class="row">
+	        	<div class="col-xs-3 text-center avatar-box margin-bottom-sm">
+	        		<img class="margin-bottom-xs" src="./img/mobile/dashboard/courses/messages/avatar-male.jpg" alt="">
+	        		<p class="name">John Doe</p>
+	        	</div>
+	        	<div class="col-xs-9">
+	        		<div class="row">
+	        			<div class="col-xs-6">
+	        				<p class="name">Hi there!</p>
+	        			</div>
+	        			<div class="col-xs-6">
+	        				<p class="message pull-right">20/07</p>
+	        			</div>
+	        		</div>
+					
+					<p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsa, est suscipit eaque velit odio asperiores voluptatem excepturi distinctio aspernatur. Vel, voluptatibus, officia hic praesentium reprehenderit veritatis iure nam quasi.</p>
 
-        </div>
+					<textarea class="margin-bottom-md" name="" id="" cols="30" rows="5"></textarea>
+					<a href="" class="btn btn-success pull-right"> Send</a>
+	        	</div>
+	        </div>
+		</div>
 
-        <div class="row text-center upload-box">
-          <div class="col-xs-12">
-            <a href="" class="btn btn-lg btn-success"> Upload Resume</a>
-          </div>
-        </div>
+		<div class="list">
+	        <div class="row">
+	        	<div class="col-xs-3 text-center avatar-box margin-bottom-sm">
+	        		<img class="margin-bottom-xs" src="./img/mobile/dashboard/courses/messages/avatar-male.jpg" alt="">
+	        		<p class="name">John Doe</p>
+	        	</div>
+	        	<div class="col-xs-9">
+	        		<div class="row">
+	        			<div class="col-xs-6">
+	        				<p class="name">Hi there!</p>
+	        			</div>
+	        			<div class="col-xs-6">
+	        				<p class="message pull-right">20/07</p>
+	        			</div>
+	        		</div>
+					
+					<p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsa, est suscipit eaque velit odio asperiores voluptatem excepturi distinctio aspernatur. Vel, voluptatibus, officia hic praesentium reprehenderit veritatis iure nam quasi.</p>
 
-
-        <div class="list">
-          <div class="row gray">
-
-            <div class="col-xs-12 ">
-
-                <h2>HTML5</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, provident culpa fugit minima veniam quas velit quaerat minus voluptatem odio dolorum amet fuga quam esse est fugiat iste praesentium quidem.</p>
-              </div>
-              <a href="" class="btn btn-lg col-xs-12 btn-success"> Apply Now</a>
-          </div>
-        </div> <!--/list -->
-
-        <div class="list">
-          <div class="row gray">
-
-            <div class="col-xs-12 ">
-
-                <h2>HTML5</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, provident culpa fugit minima veniam quas velit quaerat minus voluptatem odio dolorum amet fuga quam esse est fugiat iste praesentium quidem.</p>
-              </div>
-              <a href="" class="btn btn-lg col-xs-12 btn-success"> Apply Now</a>
-          </div>
-        </div> <!--/list -->
-
-
-        <div class="list">
-          <div class="row gray">
-
-            <div class="col-xs-12 ">
-
-                <h2>HTML5</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, provident culpa fugit minima veniam quas velit quaerat minus voluptatem odio dolorum amet fuga quam esse est fugiat iste praesentium quidem.</p>
-              </div>
-              <a href="" class="btn btn-lg col-xs-12 btn-success"> Apply Now</a>
-          </div>
-        </div> <!--/list -->
-
-        <div class="list">
-          <div class="row gray">
-
-            <div class="col-xs-12 ">
-
-                <h2>HTML5</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, provident culpa fugit minima veniam quas velit quaerat minus voluptatem odio dolorum amet fuga quam esse est fugiat iste praesentium quidem.</p>
-              </div>
-              <a href="" class="btn btn-lg col-xs-12 btn-success"> Apply Now</a>
-          </div>
-        </div> <!--/list -->
+	        	</div>
+	        </div>
+		</div>
 
 
+		<div class="list">
+	        <div class="row">
+	        	<div class="col-xs-3 text-center avatar-box margin-bottom-sm">
+	        		<img class="margin-bottom-xs" src="./img/mobile/dashboard/courses/messages/avatar-female.jpg" alt="">
+	        		<p class="name">John Doe</p>
+	        	</div>
+	        	<div class="col-xs-9">
+	        		<div class="row">
+	        			<div class="col-xs-6">
+	        				<p class="name">Hi there!</p>
+	        			</div>
+	        		</div>
+					
+					<p class="message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsa, est suscipit eaque velit odio asperiores voluptatem excepturi distinctio aspernatur. Vel, voluptatibus, officia hic praesentium reprehenderit veritatis iure nam quasi.</p>
+
+
+					<a href="" class="btn btn-success pull-right"> Replay</a>
+	        	</div>
+	        </div>
+		</div>
+
+        
       </div>
     </div>
 
@@ -174,6 +197,11 @@
         </div>
       </div>
     </footer>
+
+
+	<script>
+		$('#countdown').countdown({until: new Date(2015, 1-1, 12),format: 'dHMS'}); 
+	</script>
 
 
 

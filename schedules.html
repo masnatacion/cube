@@ -14,8 +14,13 @@
         <link rel="stylesheet" href="css/stylus.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+		<script src="js/vendor/jquery-1.11.1.min.js"></script>
+		<script src="js/jquery.plugin.min.js"></script>
+		<script src="js/jquery.countdown.min.js"></script>
+
     </head>
-    <body class="jobs">
+    <body class="schedules">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -72,73 +77,80 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron white">
-      <div class="container">
 
-        <div class="row green-box">
-          <div class="col-xs-12 margin-bottom-md">
-            <h1 class="margin-bottom-md">Jobs</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum sunt officiis quos ad nemo odit cum. Repellendus, ex ducimus quibusdam expedita laboriosam optio odit atque! Earum, dignissimos dolorum impedit perferendis.</p>
-          </div>
 
+      <div class="btn-toolbar green-toolbar" role="toolbar">
+        <div class="pull-right">
+          <div class="btn-group">Messages</div>
+          <div class="btn-group">Mentor</div>
+          <div class="btn-group">My profile</div>
         </div>
 
-        <div class="row text-center upload-box">
+      </div>
+
+
+      <div class="container windows-menu">
+
+        <div class="row green-box text-center margin-bottom-md">
           <div class="col-xs-12">
-            <a href="" class="btn btn-lg btn-success"> Upload Resume</a>
+            <h1 class="margin-bottom-md">Next live Class</h1>
+
+
+			<div id="countdown">
+				
+<!-- <div id="countdown" class="is-countdown">
+<span class="countdown-row countdown-show4">
+
+<span class="countdown-section">
+<span class="countdown-amount">79</span>
+
+<span class="countdown-period">Days</span>
+
+</span>
+
+<span class="countdown-section">
+
+<span class="countdown-amount">16</span>
+
+<span class="countdown-period">Hours</span>
+
+</span>
+
+<span class="countdown-section">
+
+<span class="countdown-amount">19</span>
+<span class="countdown-period">Minutes</span>
+
+</span>
+
+<span class="countdown-section">
+<span class="countdown-amount">20</span>
+<span class="countdown-period">Seconds</span>
+</span>
+</span>
+
+</div> -->
+			</div>
+
+
           </div>
         </div>
 
 
-        <div class="list">
-          <div class="row gray">
+        <div class="row describe-box">
+        	<div class="container">
+	          	<div class="col-xs-12">
+	          		<div class="info text-center margin-bottom-md">
+		          		<h2 class="margin-bottom-md">Setting up Laravel</h2>
+		          		<img src="./img/mobile/home/schedules/laravel.jpg" alt="">
+	          		</div>
 
-            <div class="col-xs-12 ">
+	          		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, non, cum sapiente quis veniam veritatis provident officiis placeat tenetur nam est dicta dolore dolores neque quibusdam harum aliquam eos illum!</p>
+				</div>
+			</div>
+        </div>
 
-                <h2>HTML5</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, provident culpa fugit minima veniam quas velit quaerat minus voluptatem odio dolorum amet fuga quam esse est fugiat iste praesentium quidem.</p>
-              </div>
-              <a href="" class="btn btn-lg col-xs-12 btn-success"> Apply Now</a>
-          </div>
-        </div> <!--/list -->
-
-        <div class="list">
-          <div class="row gray">
-
-            <div class="col-xs-12 ">
-
-                <h2>HTML5</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, provident culpa fugit minima veniam quas velit quaerat minus voluptatem odio dolorum amet fuga quam esse est fugiat iste praesentium quidem.</p>
-              </div>
-              <a href="" class="btn btn-lg col-xs-12 btn-success"> Apply Now</a>
-          </div>
-        </div> <!--/list -->
-
-
-        <div class="list">
-          <div class="row gray">
-
-            <div class="col-xs-12 ">
-
-                <h2>HTML5</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, provident culpa fugit minima veniam quas velit quaerat minus voluptatem odio dolorum amet fuga quam esse est fugiat iste praesentium quidem.</p>
-              </div>
-              <a href="" class="btn btn-lg col-xs-12 btn-success"> Apply Now</a>
-          </div>
-        </div> <!--/list -->
-
-        <div class="list">
-          <div class="row gray">
-
-            <div class="col-xs-12 ">
-
-                <h2>HTML5</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, provident culpa fugit minima veniam quas velit quaerat minus voluptatem odio dolorum amet fuga quam esse est fugiat iste praesentium quidem.</p>
-              </div>
-              <a href="" class="btn btn-lg col-xs-12 btn-success"> Apply Now</a>
-          </div>
-        </div> <!--/list -->
-
-
+        
       </div>
     </div>
 
@@ -174,6 +186,11 @@
         </div>
       </div>
     </footer>
+
+
+	<script>
+		$('#countdown').countdown({until: new Date(2015, 1-1, 12),format: 'dHMS'}); 
+	</script>
 
 
 
